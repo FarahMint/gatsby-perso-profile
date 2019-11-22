@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 
-import Header from "./Header"
+import HeaderSection from "./HeaderSection"
  
 import "./layout.css"
 import { StaticQuery, graphql } from "gatsby"
@@ -33,7 +33,7 @@ const Layout = ({ children }) => (
     render={data => (
       <React.Fragment>
      
-        <Header 
+        <HeaderSection
         menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
         {children}
   

@@ -4,7 +4,7 @@ import {Link} from "gatsby";
 
 import {FaRegEnvelope} from "react-icons/fa"
 
-export default function Header({menuLinks, siteTitle}) {
+export default function HeaderSection({menuLinks, siteTitle}) {
     return (
         <header>
             <div className="nav-link home-link">
