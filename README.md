@@ -43,8 +43,5 @@ I used create page gatsby feature to build a template combined with markdown  fi
 
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-4.  **`Contact section`** 
-<img align="left" src="https://user-images.githubusercontent.com/18241226/62242158-73dedc00-b3d2-11e9-9ccb-b5b4ca891835.png" alt="1_mobile-contact-section" title="1_mobile-contact-section"/>
-<img align="left" src="https://user-images.githubusercontent.com/18241226/62242159-73dedc00-b3d2-11e9-941f-c7e76a594d4d.png" alt="1_tablet-contact-section" title="1_tablet-contact-section"/>
 
 
