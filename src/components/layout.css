@@ -877,6 +877,7 @@ p.small-height {
   display: flex;
   flex-wrap:wrap;
   align-self: flex-end;
+  justify-content: center;
 
 }
 
