@@ -4,8 +4,12 @@ import SocialMedia from "../components/SocialMedia"
 
 import {FaReact, FaVuejs, FaHtml5, FaCss3Alt, FaSass } from "react-icons/fa"
 import {IoLogoJavascript } from "react-icons/io"
+import Img from "gatsby-image"
+/**GRAPHQL */
+import { graphql } from 'gatsby';
 
-const AboutPage = () => (
+const AboutPage = ({data}) => {
+  return(
 <Layout>
   <article className="about--container single--container">
     <section className="bio">
@@ -16,6 +20,13 @@ const AboutPage = () => (
 
       </div>
 
+
+      <Img 
+      fluid={data.poster.childImageSharp.fluid}
+      />
+  
+
+
       <div className="stack-animation">
         <div> <FaHtml5/></div>
         <div><FaCss3Alt/></div>
@@ -24,9 +35,30 @@ const AboutPage = () => (
         <div><FaReact/></div>
         <div><FaVuejs/></div>
       </div>
+
+      <div className="bio-text">
+        <h3>my tools<span className="color">:</span></h3>  
+        <p>My main favorites but not limited toolkit. I enjoy the process of learning and challenging the status quos</p>
+
+      </div>
     </section>
     <SocialMedia />
   </article>
 </Layout>
-)
+)}
 export default AboutPage
+
+
+/**GRAPHQL QUERY */
+export const  query= graphql`
+{
+  poster:file(relativePath: {eq: "profile.jpg"}){
+    childImageSharp{
+      fluid{
+        ...GatsbyImageSharpFluid_tracedSVG
+      }
+    }
+  } 
+} 
+
+`

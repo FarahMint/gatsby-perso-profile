@@ -1,5 +1,7 @@
 import React from 'react';
-import {Link} from "gatsby";
+// import {Link} from "gatsby";
+// import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const Navbar = ({ siteTitle, menuLinks }) => (
@@ -9,10 +11,18 @@ const Navbar = ({ siteTitle, menuLinks }) => (
                 {menuLinks.map(item => (
           <li key={item.name}
                >
-              <Link 
+              <AniLink
+             
+               paintDrip
+                to={item.link} hex="#FF3E55"
+                activeClassName="active"
+                >
+               {item.name}
+              </AniLink>
+              {/* <Link 
               activeClassName="active"
                 to={item.link}>{item.name}
-              </Link>
+              </Link> */}
             </li>
                 ))}
           </ul>

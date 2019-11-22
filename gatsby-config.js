@@ -12,13 +12,13 @@ module.exports = {
             {
                name:'about',
                link:'/about'
-            }
-           
+            } 
           ]
 
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -48,7 +48,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 350,
+              maxWidth: 450,
             },
           },
         ],
