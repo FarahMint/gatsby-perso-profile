@@ -702,6 +702,7 @@ color:#FF3E55;
   bottom: 0;
   left: 4vw;
   text-align: center;
+  position:fixed;
 }
 .nav-link.mail-link a {
   transition: background-color 300ms ease-out;
@@ -773,6 +774,7 @@ color: #FF3E55;
 .single--container {
   width: 90%;
   max-width: 1680px;
+  min-height:100vh;
   margin: 5rem auto 2.5rem auto;
   text-align: center;
   color: #F7F6F5;
