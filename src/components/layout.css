@@ -699,7 +699,7 @@ color:#FF3E55;
   width: 44px;
   height: 44px;
   z-index: 99999;
-  bottom: 4vw;
+  bottom: 0;
   left: 4vw;
   text-align: center;
 }
@@ -783,7 +783,7 @@ color: #FF3E55;
 }
  section.header{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
  
@@ -801,7 +801,55 @@ p.small-height {
     transform: rotate(-90deg);
     align-self: flex-end;
     color: #FF5252;
+    margin-bottom: 15%;
 }
+/* CTA */
+.cta{
+  margin-bottom: auto;
+  width: 40%;
+}
+.cta a{
+  color:#fff;
+}
+
+
+.cta a:hover{
+  text-decoration-line: line-through;
+  transition: all 0.8s linear;
+}
+.cta span{
+  color: #FF5252;
+  padding-left:.05rem;
+}
+
+@keyframes slide {
+  0% {
+      transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(25%);
+   
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.cta {
+  position: relative;
+}
+.cta span {
+  position:absolute;
+  margin-left: .75rem;
+}
+.cta span {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: .5s;
+}
+
 
 @media screen and (max-width: 991px){
   section.header{
@@ -839,6 +887,9 @@ p.small-height {
   font-size: calc(100% + 1vw);
   text-transform: capitalize;
 }
+.bio-text h3:last-of-type{
+  text-align: right;
+}
 
 .bio-text p{
   line-height: 38px;
@@ -874,10 +925,7 @@ p.small-height {
 .stack-animation{
   display: flex;
   flex-wrap:wrap;
-  align-self: flex-end;
-  justify-content: center;
-
-
+  font-size: calc(100% + 1vw);
 }
 
 
@@ -891,57 +939,25 @@ p.small-height {
 
 .stack-animation div:nth-child(1){
 color:#F16529;
-/* transform: translateY(100%);
-animation: move-me-down infinite alternate 5s; */
 }
 .stack-animation div:nth-child(2){
   color:#2965f1;
-  /* animation: move-me-down infinite alternate 5s; */
+ 
 }
 .stack-animation div:nth-child(3){
 color:#c69;
-/* animation: move-me-down infinite alternate 5s; */
 }
 .stack-animation div:nth-child(4){
   color:#F0DB4F;
-  /* animation: move-me-up infinite alternate 5s; */
 }
 .stack-animation div:nth-child(5){
 color:#61dbfb;
-/* animation: move-me-up infinite alternate 5s; */
 }
 .stack-animation div:nth-child(6){
 color:#41B883;
-/* animation: move-me-up infinite alternate 5s; */
 }
 
-@keyframes color-me-in {
-  0% {
-    background: #fff;
-  }
-  100% {
-    background: black;
-  }
-}
-
-/* @keyframes move-me-down {
-  0% {
-    transform: translateY(150%); 
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes move-me-up {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-} */
-
+ 
 @media (min-width: 992px){
 .single--container {
     width: 65%;
