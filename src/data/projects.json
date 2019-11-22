@@ -1,0 +1,56 @@
+[
+   
+    {
+   
+      "title":"cooking-chef",
+      "date": "2018-02",
+      "projectStack": ["React.Js", "Redux", "Food2Fork API"],
+      "description": "Recipes recommendation with filtering and search features, plus it allows users to select and save favorite recipe.",
+      "url": "https://cooking-chef.netlify.com/",
+      "github": "https://github.com/FarahMint/CookingChef",
+      "demo": "https://media.giphy.com/media/hTxZlODhvgcH5zeTSp/giphy.gif",
+      "thumbnailImage": "../images/react-recipes-project.jpg"
+    },
+    {
+      "title":"project-track",
+      "date": "2018-02",
+      "projectStack": ["React.Js","Redux","Firebase"],
+      "description": "Project management tool with personal authentication that allows users to create, update and delete their own project.",
+      "url": "https://flash-react.firebaseapp.com/",
+      "github": "https://github.com/FarahMint/react-fire",
+      "demo": "https://media.giphy.com/media/W4p6n46s9Nyeag6OsC/giphy.gif",
+      "thumbnailImage": "../images/react-firebase-project.jpg"
+    },
+    {
+      "title":"foodyed",
+      "date": "2018-03",
+      "projectStack": ["React.Js","Food Square API", "Google Maps Api"],
+      "description": "Restaurant recommendation with filtering and search feature as well as location.",
+      "url": "https://food-square.netlify.com/",
+      "github": "https://github.com/FarahMint/Food_Square_React",
+      "demo": "https://media.giphy.com/media/W0K1wTZR7HPvqUMFou/giphy.gif",
+      "thumbnailImage": "../images/react-foodSquare.jpg"
+    },
+     {
+     
+      "title": "reacttv",
+      "date": "2019-01",
+      "projectStack": ["React.Js", "MovieDB Api", "LocalStorage API"],
+      "description":"Movies recommendation displays users research and allows users to select and save  movies they are interested in.",
+      "url": "https://reacttv.netlify.com/",
+      "github": "https://github.com/FarahMint/ReactTV",
+      "demo": "https://media.giphy.com/media/gdx9585R8zNrA1C3W3/giphy.gif",
+      "thumbnailImage": "../images/react-tv-project.jpg"
+    },
+     {
+     
+      "title": "spoticlone",
+      "date": "2019-01",
+      "projectStack": ["Vue.Js", "Vuex", "iTunes Api", "LocalStorage API"],
+      "description":"Music recommendation web app fetches data from iTunes API with search and filtering functionalities and allows users to select and save albums they like.",
+      "url": "https://spoticlone.netlify.com/",
+      "github": "https://github.com/FarahMint/SpotiClone-vuex",
+      "demo": "https://media.giphy.com/media/gdx9585R8zNrA1C3W3/giphy.gif",
+      "thumbnailImage": "../images/spoticlone-project.jpg"
+    }
+  ]

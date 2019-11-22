@@ -1,0 +1,18 @@
+[
+    {
+    "label": "about me",
+    "path": "/#about",
+    "ariaLabel": "about me navigation link"
+  
+    },
+    {
+    "label": "portfolio",
+    "path": "/#portfolio",
+    "ariaLabel": "portfolio navigation link"
+    },
+    {
+    "label": "contact",
+    "path": "/#contact",
+    "ariaLabel": "contact navigation link"
+    }
+  ]
