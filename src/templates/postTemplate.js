@@ -11,7 +11,8 @@ const PostTemplate = ({ data }) => {
   return (
     <Layout>
       <article className="single--container">
-          <h2>{frontmatter.title}</h2>
+        
+          <h3>{frontmatter.title}<span className="color">:</span></h3> 
           <div className="social--links">
             <a 
               href={frontmatter.preview}
