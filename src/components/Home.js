@@ -8,7 +8,7 @@ export default function Home() {
           <h1>Hello<span className="color">,</span> <br/>I’m Farah<br/></h1>  
       
           <p className="small-height">
-              Front-End Developer &amp; UX Designer</p>
+              Front-End Developer</p>
             <div className="cta">
               <AniLink
                paintDrip
