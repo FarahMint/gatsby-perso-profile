@@ -1,15 +1,14 @@
 [
-   
     {
    
-      "title":"cooking-chef",
-      "date": "2018-02",
-      "projectStack": ["React.Js", "Redux", "Food2Fork API"],
+      "title":"recipe-chef",
+      "date": "2020-02",
+      "projectStack": ["React.js,context API ,React-Router, Typescript ,themealdb API ,LocalStorage"],
       "description": "Recipes recommendation with filtering and search features, plus it allows users to select and save favorite recipe.",
-      "url": "https://cooking-chef.netlify.com/",
-      "github": "https://github.com/FarahMint/CookingChef",
-      "demo": "https://media.giphy.com/media/hTxZlODhvgcH5zeTSp/giphy.gif",
-      "thumbnailImage": "../images/react-recipes-project.jpg"
+      "url": "https://recipeschef.netlify.com/",
+      "github": "https://github.com/FarahMint/recipe-chef",
+      "demo": "",
+      "thumbnailImage": "../images/react-recipe-project.jpg"
     },
     {
       "title":"project-track",
