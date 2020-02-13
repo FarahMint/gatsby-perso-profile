@@ -16,7 +16,7 @@ const AboutPage = ({data}) => {
       <div className="bio-text">
         <h3>my story<span className="color">:</span></h3>  
         <p>
-        I am a Front-End Developer passionate about human-computer interaction, its constant development and how it shapes our lives. I love minimal design and tea.</p>
+        I am a Front-End Developer passionate about human-computer interaction, its constant development and how it shapes our lives.</p>
 
       </div>
 
