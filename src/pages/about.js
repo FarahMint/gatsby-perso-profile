@@ -38,7 +38,7 @@ const AboutPage = ({data}) => {
 
       <div className="bio-text">
         <h3>my tools<span className="color">:</span></h3>  
-        <p>My main favorites but not limited toolkit. I enjoy the process of learning and challenging the status quos.</p>
+        <p>My favorites and not limited toolkit. I enjoy the process of learning and challenging the status quos.</p>
 
       </div>
     </section>
