@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Farah zahi| Front-end developer`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Front-end Developer producing high quality responsive websites and exceptional user experience`,
     author: `FarahMint`,
 
         menuLinks:[
