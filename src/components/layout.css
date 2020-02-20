@@ -1007,8 +1007,8 @@ color:#41B883;
     margin: 6rem auto 3rem auto;
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap:1rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
 }
 
 
@@ -1107,8 +1107,15 @@ color: #FF3E55;
   }
  .template--grid{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-bottom: 2rem;
+
+    padding: 4rem 0;
     font-size: 1.2rem;
+    text-align: right;
+  }
+
+  .template--grid > div > h3{
+    text-transform: uppercase;
+    font-size: initial;
   }
 
  .template--grid li{
@@ -1118,6 +1125,7 @@ color: #FF3E55;
   line-height: 38px;
   color: #F7F6F5;
   font-size: 1.5rem;
+  
   }
  
   

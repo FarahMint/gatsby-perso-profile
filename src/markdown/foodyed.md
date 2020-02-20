@@ -10,12 +10,18 @@ date: 2019-03-01
 ![food-square-screens](../images/food-square-screens.png)
 
 <div class="template--grid">
+<div>
+<h3>description</h3>
 <p> Restaurant recommendation with filtering and search feature as well as location. </p>
+</div>
+<div>
+<h3>stack</h3>
+<ul>
+<li>react</li>
+<li>Food Square API</li>
+<li>Google Maps API</li>
 
- - react
- - Food Square API 
- - Google Maps API
-  
+</div>
 </div>
 
  
