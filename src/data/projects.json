@@ -8,17 +8,7 @@
       "url": "https://recipeschef.netlify.com/",
       "github": "https://github.com/FarahMint/recipe-chef",
       "demo": "",
-      "thumbnailImage": "../images/react-recipe-project.jpg"
-    },
-    {
-      "title":"project-track",
-      "date": "2018-02",
-      "projectStack": ["React.Js","Redux","Firebase"],
-      "description": "Project management tool with personal authentication that allows users to create, update and delete their own project.",
-      "url": "https://flash-react.firebaseapp.com/",
-      "github": "https://github.com/FarahMint/react-fire",
-      "demo": "https://media.giphy.com/media/W4p6n46s9Nyeag6OsC/giphy.gif",
-      "thumbnailImage": "../images/react-firebase-project.jpg"
+      "thumbnailImage": "../images/react-recipe-project.png"
     },
     {
       "title":"foodyed",
@@ -28,18 +18,18 @@
       "url": "https://food-square.netlify.com/",
       "github": "https://github.com/FarahMint/Food_Square_React",
       "demo": "https://media.giphy.com/media/W0K1wTZR7HPvqUMFou/giphy.gif",
-      "thumbnailImage": "../images/react-foodSquare.jpg"
+      "thumbnailImage": "../images/react-foodSquare.png"
     },
      {
      
       "title": "reacttv",
-      "date": "2019-01",
-      "projectStack": ["React.Js", "MovieDB Api", "LocalStorage API"],
+      "date": "2020-02",
+      "projectStack": ["React.Js", "MovieDB Api", "Firebase"],
       "description":"Movies recommendation displays users research and allows users to select and save  movies they are interested in.",
-      "url": "https://reacttv.netlify.com/",
-      "github": "https://github.com/FarahMint/ReactTV",
+      "url": "https://rendezvous-9f567.firebaseapp.com/",
+      "github": "https://github.com/FarahMint/MBd",
       "demo": "https://media.giphy.com/media/gdx9585R8zNrA1C3W3/giphy.gif",
-      "thumbnailImage": "../images/react-tv-project.jpg"
+      "thumbnailImage": "../images/react-movieDB-project.png"
     },
      {
      

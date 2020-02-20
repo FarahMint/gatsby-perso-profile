@@ -14,7 +14,7 @@ const AboutPage = ({data}) => {
   <article className="about--container single--container">
     <section className="bio">
       <div className="bio-text">
-        <h3>my story<span className="color">:</span></h3>  
+        <h3>my story</h3>  
         <p>
         I am a Front-End Developer passionate about human-computer interaction, its constant development and how it shapes our lives.</p>
 
@@ -22,6 +22,7 @@ const AboutPage = ({data}) => {
 
 
       <Img 
+      className="avatar"
       fluid={data.poster.childImageSharp.fluid}
       />
   
@@ -37,7 +38,7 @@ const AboutPage = ({data}) => {
       </div>
 
       <div className="bio-text">
-        <h3>my tools<span className="color">:</span></h3>  
+        <h3>my tools</h3>  
         <p>My favorites and not limited toolkit. I enjoy the process of learning and challenging the status quos.</p>
 
       </div>
@@ -52,7 +53,7 @@ export default AboutPage
 /**GRAPHQL QUERY */
 export const  query= graphql`
 {
-  poster:file(relativePath: {eq: "profile.jpg"}){
+  poster:file(relativePath: {eq: "avatar.png"}){
     childImageSharp{
       fluid{
         ...GatsbyImageSharpFluid_tracedSVG
