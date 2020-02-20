@@ -1,4 +1,15 @@
 [
+  {
+     
+    "title": "MBd",
+    "date": "2020-02",
+    "projectStack": ["React.Js", "MovieDB Api", "Firebase"],
+    "description":"Movies recommendation displays users research and allows users to select and save movies they are interested in.",
+    "url": "https://rendezvous-9f567.firebaseapp.com/",
+    "github": "https://github.com/FarahMint/MBd",
+    "demo": "https://media.giphy.com/media/gdx9585R8zNrA1C3W3/giphy.gif",
+    "thumbnailImage": "../images/react-movieDB-project.png"
+  },
     {
    
       "title":"recipe-chef",
@@ -20,17 +31,7 @@
       "demo": "https://media.giphy.com/media/W0K1wTZR7HPvqUMFou/giphy.gif",
       "thumbnailImage": "../images/react-foodSquare.png"
     },
-     {
-     
-      "title": "reacttv",
-      "date": "2020-02",
-      "projectStack": ["React.Js", "MovieDB Api", "Firebase"],
-      "description":"Movies recommendation displays users research and allows users to select and save  movies they are interested in.",
-      "url": "https://rendezvous-9f567.firebaseapp.com/",
-      "github": "https://github.com/FarahMint/MBd",
-      "demo": "https://media.giphy.com/media/gdx9585R8zNrA1C3W3/giphy.gif",
-      "thumbnailImage": "../images/react-movieDB-project.png"
-    },
+    
      {
      
       "title": "spoticlone",
