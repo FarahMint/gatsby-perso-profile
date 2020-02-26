@@ -659,6 +659,17 @@ nav.main-nav ul{
   margin-left:  auto;
 }
 
+nav.main-nav ul > li:first-of-type{
+  display: none;
+}
+nav.main-nav ul > li{
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 5px 0px;
+  text-decoration: none;
+}
+
 
 nav.main-nav ul li a{
   transition: color 200ms ease-out;
@@ -672,7 +683,7 @@ color:#FF3E55;
 
 
 
-@media (max-width: 600px)
+@media (max-width: 750px)
 {
   nav.main-nav {
   display:flex;
@@ -691,16 +702,17 @@ color:#FF3E55;
     margin:0;
   }
 
-  nav.main-nav ul > li{
+  nav.main-nav ul > li:first-of-type{
+    display: block;
+  }
+  nav.main-nav ul > li:first-of-type{
+   margin-left: 2rem;
+  }
 
-    font-size: calc(100% + 2vw);
-    text-align: center;
-    color: rgb(255, 255, 255);
+  nav.main-nav ul > li{
     position: relative;
     min-width: 40px;
     flex: 1 1 0%;
-    padding: 5px 0px;
-    text-decoration: none;
   }
 }
 
@@ -724,10 +736,11 @@ color:#FF3E55;
   width: 44px;
   height: 44px;
   z-index: 99999;
-  bottom: 3%;
+  bottom: 2%;
   left: 4vw;
   text-align: center;
   position:fixed;
+
 }
 .nav-link.mail-link a {
   transition: background-color 300ms ease-out;
@@ -850,7 +863,7 @@ color: #FF5252;
 .bio div.avatar{
   border-radius: 50%;
   display: flex;
-  width:100%;
+  width:50%;
   margin: 0 auto;
   order: -1;
 }
@@ -1085,6 +1098,10 @@ button.goRight svg{
  
 
 @media (min-width: 750px){
+  .wrapper> div:first-of-type{
+    display:none;
+  }
+
   .cards-slider:hover div.slide{
     transform: translateX(-25%)!important;
   }

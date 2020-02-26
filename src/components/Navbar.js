@@ -2,9 +2,10 @@ import React from 'react';
 // import {Link} from "gatsby";
 // import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-
+import {FaHome} from "react-icons/fa"
  
-const Navbar = ({ siteTitle, menuLinks }) => (
+const Navbar = ({ siteTitle, menuLinks }) =>{ 
+  return(
  <>
       <nav className="main-nav">
         <ul style={{ display: "flex", flex: 1 }}>
@@ -17,7 +18,8 @@ const Navbar = ({ siteTitle, menuLinks }) => (
                 to={item.link} hex="#FF3E55"
                 activeClassName="active"
                 >
-               {item.name}
+                  
+               {item.name === "home" ?<FaHome /> : item.name}
               </AniLink>
               {/* <Link 
               activeClassName="active"
@@ -30,5 +32,5 @@ const Navbar = ({ siteTitle, menuLinks }) => (
       
         </>
   )
-
+}
   export default Navbar;
