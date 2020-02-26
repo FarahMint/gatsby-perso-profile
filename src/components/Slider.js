@@ -28,11 +28,11 @@ export default function Slider({portfolio}) {
         onMouseOver={()=> goLeft()}>
             <FaAngleLeft/>
         </button>
-        <AniLink
+        {/* <AniLink
             paintDrip
             to="/work" hex="#FF3E55">
             See my projects
-        </AniLink>
+        </AniLink> */}
         <button type="button" className="goRight" 
         onClick={() => goRight()}>
         <FaAngleRight/>
