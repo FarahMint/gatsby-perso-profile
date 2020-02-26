@@ -1,7 +1,7 @@
 import React, {useState} from "react";
  
 import Card from "./Card";
-import {FaAngleRight, FaAngleLeft} from "react-icons/fa"
+import {FaAngleRight, FaAngleLeft, FaAngleDown} from "react-icons/fa"
 
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
@@ -23,7 +23,7 @@ export default function Slider({portfolio}) {
   return (
       <div className="wrapper"> 
       <div>
-        <button className="goLeft" 
+        <button type="button" className="goLeft" 
         onClick={() => goLeft()}
         onMouseOver={()=> goLeft()}>
             <FaAngleLeft/>
@@ -31,16 +31,26 @@ export default function Slider({portfolio}) {
         <AniLink
             paintDrip
             to="/work" hex="#FF3E55">
-            View all work
+            See my projects
         </AniLink>
-        <button className="goRight" 
+        <button type="button" className="goRight" 
         onClick={() => goRight()}>
         <FaAngleRight/>
         </button>
       </div>
 
+      <div className="icon-down">
+        <button type="button">
+        <FaAngleDown onClick={()=>console.log("get down")}/>
+        </button>
+      </div>
+      <AniLink
+            paintDrip
+            to="/work" hex="#FF3E55">
+            See my projects
+        </AniLink>
 
-      <div className="cards-slider">
+      <div id="sliders" className="cards-slider">
          {portfolioListing.map((project) => {
           return (
             <div
