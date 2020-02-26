@@ -1,46 +1,46 @@
-[
-  {
-     
-    "title": "MBd",
-    "date": "2020-02",
-    "projectStack": ["React.Js", "MovieDB Api", "Firebase"],
-    "description":"Movies recommendation displays users research and allows users to select and save movies they are interested in.",
-    "url": "https://rendezvous-9f567.firebaseapp.com/",
-    "github": "https://github.com/FarahMint/MBd",
-    "demo": "https://media.giphy.com/media/gdx9585R8zNrA1C3W3/giphy.gif",
-    "thumbnailImage": "../images/react-movieDB-project.png"
-  },
+  [
     {
-   
-      "title":"recipe-chef",
+      
+      "title": "MBd",
       "date": "2020-02",
-      "projectStack": ["React.js,context API ,React-Router, Typescript ,themealdb API ,LocalStorage"],
-      "description": "Recipes recommendation with filtering and search features, plus it allows users to select and save favorite recipe.",
-      "url": "https://recipeschef.netlify.com/",
-      "github": "https://github.com/FarahMint/recipe-chef",
-      "demo": "",
-      "thumbnailImage": "../images/react-recipe-project.png"
-    },
-    {
-      "title":"foodyed",
-      "date": "2018-03",
-      "projectStack": ["React.Js","Food Square API", "Google Maps Api"],
-      "description": "Restaurant recommendation with filtering and search feature as well as location.",
-      "url": "https://food-square.netlify.com/",
-      "github": "https://github.com/FarahMint/Food_Square_React",
-      "demo": "https://media.giphy.com/media/W0K1wTZR7HPvqUMFou/giphy.gif",
-      "thumbnailImage": "../images/react-foodSquare.png"
-    },
-    
-     {
-     
-      "title": "spoticlone",
-      "date": "2019-01",
-      "projectStack": ["Vue.Js", "Vuex", "iTunes Api", "LocalStorage API"],
-      "description":"Music recommendation web app fetches data from iTunes API with search and filtering functionalities and allows users to select and save albums they like.",
-      "url": "https://spoticlone.netlify.com/",
-      "github": "https://github.com/FarahMint/SpotiClone-vuex",
+      "projectStack": ["React.Js", "MovieDB Api", "Firebase"],
+      "description":"Movies recommendation displays users research and allows users to select and save movies they are interested in.",
+      "url": "https://rendezvous-9f567.firebaseapp.com/",
+      "github": "https://github.com/FarahMint/MBd",
       "demo": "https://media.giphy.com/media/gdx9585R8zNrA1C3W3/giphy.gif",
-      "thumbnailImage": "../images/spoticlone-project.jpg"
-    }
-  ]
+      "thumbnailImage": "../images/react-movieDB-project.png"
+    },
+      {
+    
+        "title":"recipe-chef",
+        "date": "2020-02",
+        "projectStack": ["React.js,context API ,React-Router, Typescript ,themealdb API ,LocalStorage"],
+        "description": "Recipes recommendation with filtering and search features, plus it allows users to select and save favorite recipe.",
+        "url": "https://recipeschef.netlify.com/",
+        "github": "https://github.com/FarahMint/recipe-chef",
+        "demo": "",
+        "thumbnailImage": "../images/react-recipe-project.png"
+      },
+      {
+        "title":"foodyed",
+        "date": "2018-03",
+        "projectStack": ["React.Js","Food Square API", "Google Maps Api"],
+        "description": "Restaurant recommendation with filtering and search feature as well as location.",
+        "url": "https://food-square.netlify.com/",
+        "github": "https://github.com/FarahMint/Food_Square_React",
+        "demo": "https://media.giphy.com/media/W0K1wTZR7HPvqUMFou/giphy.gif",
+        "thumbnailImage": "../images/react-foodSquare.png"
+      },
+      
+      {
+      
+        "title": "spoticlone",
+        "date": "2019-01",
+        "projectStack": ["Vue.Js", "Vuex", "iTunes Api", "LocalStorage API"],
+        "description":"Music recommendation web app fetches data from iTunes API with search and filtering functionalities and allows users to select and save albums they like.",
+        "url": "https://spoticlone.netlify.com/",
+        "github": "https://github.com/FarahMint/SpotiClone-vuex",
+        "demo": "https://media.giphy.com/media/gdx9585R8zNrA1C3W3/giphy.gif",
+        "thumbnailImage": "../images/spoticlone-project.jpg"
+      }
+    ]
