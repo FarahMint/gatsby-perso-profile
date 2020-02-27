@@ -15,7 +15,14 @@ import "./layout.css"
 import { StaticQuery, graphql } from "gatsby"
 
  
-const Layout = ({ children }) => (
+const Layout = ({ children }) => {
+  if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]')
+  }
+
+  
+  return (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -42,6 +49,7 @@ const Layout = ({ children }) => (
   />
 
 )
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

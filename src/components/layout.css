@@ -714,6 +714,7 @@ color:#FF3E55;
     position: relative;
     min-width: 40px;
     flex: 1 1 0%;
+    align-items: flex-start;
   }
 }
 
@@ -1056,40 +1057,31 @@ color: #FF3E55;
   margin-bottom: 5%;
   transition: all .5s ease-in-out;
 }
-.wrapper a:hover{
-border:1px solid #fff;
-background-color: #fff;
-padding:1rem;
-border-radius: 5px;
-}
+ 
 
 .wrapper> div.icon-down{
   display:none;
 }
-
-.wrapper> div.icon-down:hover{
-  background-color: #fff;
+.wrapper> div.icon-down:hover svg{
+  margin-top:1rem;
 }
 
-.wrapper> div.icon-down:hover > svg{
-  color: #FF3E55;
-  font-size: 3rem;
-  margin-top: 2rem;
-}
+ 
 
-.wrapper> div:first-of-type{
+.wrapper .button-slider{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 5%;
 }
 
 button.goLeft,
-button.goRight,
-.icon-down button{
+button.goRight{
 border:none;
 background-color: transparent;
 cursor: pointer;
 outline: none;
+display:block;
 }
 
 button.goLeft svg,
@@ -1126,7 +1118,8 @@ button.goRight svg{
 
 @media (min-width: 750px){
  
-  .wrapper> div:first-of-type {
+  button.goLeft,
+button.goRight {
 display:none;
 }
 
@@ -1140,6 +1133,8 @@ display:none;
   border-radius: 10rem;
   border: 1px solid #fff;
   margin: 0 auto;
+  margin: 0 auto;
+    margin-bottom: 2rem;
   cursor:pointer;
   transition: all .5s ease-in-out;
 }
