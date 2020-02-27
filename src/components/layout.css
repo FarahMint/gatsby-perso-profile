@@ -1053,7 +1053,7 @@ color: #FF3E55;
 }
 
 .wrapper a{
-  font-size: calc(100% + 2vw);
+  font-size: 2rem;
   margin-bottom: 5%;
   transition: all .5s ease-in-out;
 }
@@ -1073,6 +1073,7 @@ color: #FF3E55;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 5%;
+  font-size:1rem;
 }
 
 button.goLeft,
@@ -1113,10 +1114,10 @@ button.goRight svg{
 
 
 
-
  
-
-@media (min-width: 750px){
+ 
+/* browser with more than 800px */
+@media (min-width: 769px){
  
   button.goLeft,
 button.goRight {
@@ -1155,7 +1156,7 @@ display:none;
 
 }
 
-
+/* browser with less than 800px */
 @media (max-width: 768px){
   .wrapper{
     overflow-x: hidden;
