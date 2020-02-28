@@ -40,7 +40,7 @@ export default function Slider({portfolio}) {
         <AniLink
             paintDrip
             to="/work" hex="#FF3E55">
-            See all my projects
+            See my projects
         </AniLink>
         <button type="button" className="goRight" 
         onClick={() => goRight()}>
